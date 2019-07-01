@@ -1,0 +1,32 @@
+{
+  "name": "spoopi-app",
+  "version": "0.0.1",
+  "description": "Makes any image spoopy",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index",
+    "dev": "nodemon"
+  },
+  "author": "emi (juuyokka)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.18.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "fast-glob": "^3.0.3",
+    "multer": "^1.4.1",
+    "sharp": "^0.22.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juuyokka/spoopi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juuyokka/spoopi/issues"
+  },
+  "homepage": "https://github.com/juuyokka/spoopi#readme"
+}
