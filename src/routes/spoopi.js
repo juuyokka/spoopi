@@ -4,7 +4,7 @@ const sharp = require('sharp');
 const upload = multer();
 
 module.exports = router => {
-	router.put('/api/spoopi', upload.single('image'), async (req, res) => {
+	router.post('/api/spoopi', upload.single('image'), async (req, res) => {
 		const { file } = req;
 
 		// console.log(file);

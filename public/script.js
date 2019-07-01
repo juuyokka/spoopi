@@ -5,7 +5,7 @@ const submit = async () => {
 	formData.append('image', fileField.files[0]);
 
 	const image = await fetch('/api/spoopi', {
-		method: 'PUT',
+		method: 'POST',
 		body: formData,
 	}).then(res => res.json());
 
