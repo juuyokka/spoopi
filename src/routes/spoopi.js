@@ -10,6 +10,7 @@ module.exports = router => {
 		// console.log(file);
 
 		const result = await sharp(file.buffer)
+			.flatten()
 			.negate()
 			.modulate({
 				hue: 180,
